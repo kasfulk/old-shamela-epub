@@ -1,0 +1,27 @@
+{
+  "name": "old-shamela-epub",
+  "version": "1.0.0",
+  "description": "Get epub from old shamela",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "get": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasfulk/old-shamela-epub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasfulk/old-shamela-epub/issues"
+  },
+  "homepage": "https://github.com/kasfulk/old-shamela-epub#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "download": "^8.0.0",
+    "fs": "^0.0.1-security"
+  }
+}
